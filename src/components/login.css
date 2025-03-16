@@ -1,0 +1,98 @@
+.login-page{
+    display: flex;
+    height: 80vh;
+    font-family: Arial, sans-serif;
+}
+.login-left, .login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.login-left{
+    background-image: linear-gradient(#dc0512, #ee4e3f);
+    color: #fff;
+}
+
+.login-right{
+    background-image: linear-gradient(#fcf8f8, #fff);
+}
+
+.btn-info{
+    border: 1px solid #fff;
+    background-color: #ee4e3f;
+    color: #fff;
+    width: 6rem;
+    padding: 7px;
+    border-radius: 22px;
+}
+
+.login-right form {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  .login-right h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 17px;
+  }
+
+.form-group{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 9px 19px;
+    border-radius: 1.5rem;
+    border: 1px solid #ccc;
+    background: #eae9e9;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: #f31343;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .login-button:hover {
+    background-color: #29954d;
+  }
+  .forgot{
+    margin-top: .5rem;
+    display: flex;
+    column-gap: 4rem;
+  }
+
+#checkbox{
+    accent-color: #f31343;
+}
+
+.checkbox-info input{
+    padding: 5px;
+}
+
+.checkbox-info label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .checkbox-info input[type="checkbox"]:checked + label {
+    color: red; /* Change text color when checkbox is checked */
+  }

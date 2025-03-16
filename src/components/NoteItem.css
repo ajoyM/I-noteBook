@@ -1,0 +1,13 @@
+.card-info{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card-style{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-style:hover{
+    box-shadow: 0 8px 16px rgba(84, 165, 141, 0.4);
+}
